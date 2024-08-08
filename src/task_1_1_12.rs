@@ -22,7 +22,7 @@ fn facsum(a: u64) -> f64 {
 mod tests {
     use super::*;
     #[test]
-    fn test_1_1_10() {
+    fn test_1_1_12() {
         assert_eq!(facsum(0), 1.0);
         assert_eq!(facsum(1), 2.0);
         assert_eq!(facsum(2), 2.5);
